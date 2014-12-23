@@ -503,7 +503,7 @@ uint8_t IOE_TS_Config(void)
 	I2C_WriteDeviceRegister(IOE_1_ADDR, IOE_REG_GPIO_AF, tmp);
 
 	/* Select 2 nF filter capacitor */
-	I2C_WriteDeviceRegister(IOE_1_ADDR, IOE_REG_TSC_CFG, 0x9A);
+	I2C_WriteDeviceRegister(IOE_1_ADDR, IOE_REG_TSC_CFG, 0xD2);//0x9A
 
 	/* Select single point reading  */
 	I2C_WriteDeviceRegister(IOE_1_ADDR, IOE_REG_FIFO_TH, 0x01);
@@ -971,6 +971,8 @@ uint16_t I2C_ReadDataBuffer(uint8_t DeviceAddr, uint8_t RegisterAddr)
  */
 uint16_t IOE_TS_Read_X(void)
 {
+	int32_t Test[16];
+
 #if 0
 	int32_t x, xr;
 
@@ -990,7 +992,8 @@ uint16_t IOE_TS_Read_X(void)
 	int32_t icount, sum = 0;
 
 	for (icount = 0; icount < 16; icount++) {
-		sum += I2C_ReadDataBuffer(IOE_1_ADDR, IOE_REG_TSC_DATA_X);
+		Test[icount]=I2C_ReadDataBuffer(IOE_1_ADDR, IOE_REG_TSC_DATA_X);
+		sum += Test[icount];//I2C_ReadDataBuffer(IOE_1_ADDR, IOE_REG_TSC_DATA_X);
 	}
 	sum >>= 4;
 

@@ -49,14 +49,14 @@
       <target file="stm32f4xx_i2c.o" lastModified="14a76386b6c">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14a7634abed"/>
       </target>
-      <target file="LCD_Touch_Calibration.o" lastModified="14a763865a0">
-         <source file="..\..\..\LCD_Touch_Calibration.c" lastModified="14a7324b753"/>
+      <target file="LCD_Touch_Calibration.o" lastModified="14a767a1107">
+         <source file="..\..\..\LCD_Touch_Calibration.c" lastModified="14a767a0871"/>
       </target>
       <target file="semihosting.o" lastModified="14a7638536f">
          <source file="..\..\..\semihosting\semihosting.c" lastModified="14a7637989f"/>
       </target>
-      <target file="STMPE811QTR.o" lastModified="14a76385d05">
-         <source file="..\..\..\STMPE811QTR.c" lastModified="14a7297a9a4"/>
+      <target file="STMPE811QTR.o" lastModified="14a7666cb50">
+         <source file="..\..\..\STMPE811QTR.c" lastModified="14a7666bcb6"/>
       </target>
       <target file="stm32f4xx_usart.o" lastModified="14a7638592c">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14a7635c78d"/>

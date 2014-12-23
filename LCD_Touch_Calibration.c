@@ -91,6 +91,8 @@ void Lcd_Touch_Calibration(void)
   uint8_t adjust_OK_Falg = 0;
   TS_STATE *pstate = NULL;
 
+  int32_t Test[16];
+
   /* Clear the LCD */ 
   LCD_Clear(White);
   LCD_SetTextColor(Red); 
@@ -115,7 +117,8 @@ void Lcd_Touch_Calibration(void)
 			delay(10);
       /*Read AD convert result*/
       for(i = 0; i < 16; i++) {
-        tpx_sum += IOE_TS_Read_X();
+    	  Test[i]=IOE_TS_Read_X();
+        tpx_sum += Test[i];//IOE_TS_Read_X();
         tpy_sum += IOE_TS_Read_Y();	
         delay(2);
       }
@@ -251,9 +254,9 @@ void Calibration_Test_Dispose(void)
   point_old.y = 0;
 
   /*Display backgroup of LCD*/
-  LCD_Clear(White);
+  //LCD_Clear(White);
   LCD_SetTextColor(Red);
-  LCD_DisplayStringLine(LINE(9),"        please touch the screen          "); 
+  //LCD_DisplayStringLine(LINE(9),"        please touch the screen          ");
   while (1) {
     do {
       pstate = IOE_TS_GetState();
@@ -271,7 +274,7 @@ void Calibration_Test_Dispose(void)
     }
     if (b_flag) {
       b_flag = 0;
-      LCD_Clear(White);
+      //LCD_Clear(White);
     }
     LCD_SetTextColor(Blue);
     sprintf((char*)text,"   X_AD = %d ",point_new.x);
