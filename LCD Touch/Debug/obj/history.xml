@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.8.3 arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -IF:\Jeff\Dev\LCD (Vsync) Touch\cmsis_lib\include -IF:\Jeff\Dev\LCD (Vsync) Touch -IF:\Jeff\Dev\LCD (Vsync) Touch\cmsis_boot -IF:\Jeff\Dev -IF:\Jeff\Dev\LCD (Vsync) Touch\semihosting -IF:\Jeff\Dev\LCD (Vsync) Touch\cmsis_lib -IF:\Jeff\Dev\LCD (Vsync) Touch\cmsis -IF:\Jeff">
+      <target file="stm32f4xx_exti.o" lastModified="14a76386c85">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14a76363c61"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14a76386736">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14a76349046"/>
+      </target>
+      <target file="fonts.o" lastModified="14a76386215">
+         <source file="..\..\..\fonts.c" lastModified="13c0d7c5e80"/>
+      </target>
+      <target file="stm32f4_discovery_lcd.o" lastModified="14a7638567d">
+         <source file="..\..\..\stm32f4_discovery_lcd.c" lastModified="14a49f4b63f"/>
+      </target>
+      <target file="stm32f4xx_sdio.o" lastModified="14a763857c5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="14a7635a3d8"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="14a76385489">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14a7637280c"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14a76385a07">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14a7633caa7"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14a763bde63">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14a763bd645"/>
+      </target>
+      <target file="printf.o" lastModified="14a763860ed">
+         <source file="..\..\..\stdio\printf.c" lastModified="14a7638467f"/>
+      </target>
+      <target file="stm32f4_discovery.o" lastModified="14a76385b5f">
+         <source file="..\..\..\stm32f4_discovery.c" lastModified="13c0d7c5e80"/>
+      </target>
+      <target file="misc.o" lastModified="14a76386e5a">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14a763582b2"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14a763869f5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14a7634d1f5"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14a76385fa4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14a7633e6ba"/>
+      </target>
+      <target file="stm32f4xx_fsmc.o" lastModified="14a7638638d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="14a7635ed17"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="14a763867a3">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="14a763798bf"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="14a76386b6c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14a7634abed"/>
+      </target>
+      <target file="LCD_Touch_Calibration.o" lastModified="14a763865a0">
+         <source file="..\..\..\LCD_Touch_Calibration.c" lastModified="14a7324b753"/>
+      </target>
+      <target file="semihosting.o" lastModified="14a7638536f">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="14a7637989f"/>
+      </target>
+      <target file="STMPE811QTR.o" lastModified="14a76385d05">
+         <source file="..\..\..\STMPE811QTR.c" lastModified="14a7297a9a4"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14a7638592c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14a7635c78d"/>
+      </target>
+      <target file="main.o" lastModified="14a7638f88c">
+         <source file="..\..\..\main.c" lastModified="14a7638ef45"/>
+      </target>
+   </processor>
+</history>
