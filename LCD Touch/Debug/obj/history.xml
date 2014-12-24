@@ -19,8 +19,8 @@
       <target file="stm32f4xx_syscfg.o" lastModified="14a76385489">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14a7637280c"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="14a76385a07">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14a7633caa7"/>
+      <target file="startup_stm32f4xx.o" lastModified="14a7c2bdb2d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14a7c2bd3f2"/>
       </target>
       <target file="system_stm32f4xx.o" lastModified="14a763bde63">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14a763bd645"/>
@@ -49,19 +49,19 @@
       <target file="stm32f4xx_i2c.o" lastModified="14a76386b6c">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14a7634abed"/>
       </target>
-      <target file="LCD_Touch_Calibration.o" lastModified="14a767a1107">
-         <source file="..\..\..\LCD_Touch_Calibration.c" lastModified="14a767a0871"/>
+      <target file="LCD_Touch_Calibration.o" lastModified="14a7c31ea4e">
+         <source file="..\..\..\LCD_Touch_Calibration.c" lastModified="14a7c31e193"/>
       </target>
       <target file="semihosting.o" lastModified="14a7638536f">
          <source file="..\..\..\semihosting\semihosting.c" lastModified="14a7637989f"/>
       </target>
-      <target file="STMPE811QTR.o" lastModified="14a7666cb50">
-         <source file="..\..\..\STMPE811QTR.c" lastModified="14a7666bcb6"/>
+      <target file="STMPE811QTR.o" lastModified="14a7c215de6">
+         <source file="..\..\..\STMPE811QTR.c" lastModified="14a7c215403"/>
       </target>
       <target file="stm32f4xx_usart.o" lastModified="14a7638592c">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14a7635c78d"/>
       </target>
-      <target file="main.o" lastModified="14a7638f88c">
+      <target file="main.o" lastModified="14a7c215f0f">
          <source file="..\..\..\main.c" lastModified="14a7638ef45"/>
       </target>
    </processor>

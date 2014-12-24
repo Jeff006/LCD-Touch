@@ -445,6 +445,8 @@ uint16_t I2C_ReadDataBuffer(uint8_t DeviceAddr, uint8_t RegisterAddr);
 
 uint16_t IOE_TS_Read_X(void);
 uint16_t IOE_TS_Read_Y(void);
+void IOE_TS_Clear_FIFO(void);
+
 #ifdef __cplusplus
 }
 #endif

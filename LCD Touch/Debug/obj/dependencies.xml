@@ -63,8 +63,6 @@
       </source>
       <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14a7633caf5">
       </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14a7633caa7">
-      </source>
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="14a7635a3a9">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
@@ -111,8 +109,6 @@
       </source>
       <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14a7633caf5">
       </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14a7633caa7">
-      </source>
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="14a7635a3a9">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
@@ -134,7 +130,7 @@
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
       </source>
-      <source file="..\..\..\LCD_Touch_Calibration.c" lastModified="14a767a0c59">
+      <source file="..\..\..\LCD_Touch_Calibration.c" lastModified="14a7c31e57b">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
          <include file="..\..\..\stm32f4_discovery.h"/>
          <include file="..\..\..\stm32f4_discovery_lcd.h"/>
@@ -153,12 +149,12 @@
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="14a7633e6ab">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
-      <source file="..\..\..\STMPE811QTR.h" lastModified="13c0d7c5a98">
+      <source file="..\..\..\STMPE811QTR.h" lastModified="14a7c215819">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
       <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="14a7633d2f4">
       </source>
-      <source file="..\..\..\STMPE811QTR.c" lastModified="14a7666bcb6">
+      <source file="..\..\..\STMPE811QTR.c" lastModified="14a7c215403">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
@@ -276,7 +272,7 @@
          <include file="..\..\..\stm32f4_discovery_lcd.h"/>
          <include file="..\..\..\fonts.h"/>
       </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14a7633caa7">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14a7c2bd3f2">
       </source>
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="14a7635a3a9">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>

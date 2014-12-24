@@ -1041,6 +1041,20 @@ uint16_t IOE_TS_Read_Y(void)
 }
 
 /**
+ * @brief  Clear FIFO content
+ * @param  None
+ * @retval None.
+ */
+void IOE_TS_Clear_FIFO(void)
+{
+	/* Write 0x01 to clear the FIFO memory content. */
+	I2C_WriteDeviceRegister(IOE_1_ADDR, IOE_REG_FIFO_STA, 0x01);
+
+	/* Write 0x00 to put the FIFO back into operation mode  */
+	I2C_WriteDeviceRegister(IOE_1_ADDR, IOE_REG_FIFO_STA, 0x00);
+}
+
+/**
  * @brief  Return Touch Screen Z position value
  * @param  None
  * @retval Z position.
